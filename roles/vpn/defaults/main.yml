@@ -1,0 +1,10 @@
+vpn_openvpn_dir: /etc/openvpn
+vpn_openvpn_easyrsa_dir: /usr/share/easy-rsa
+
+vpn_openvpn_port: 1194
+vpn_openvpn_address: '{{ ansible_default_ipv4.address }}'
+
+vpn_openvpn_clients:
+- javascriptizer1
+
+vpn_host: '127.0.0.1'
